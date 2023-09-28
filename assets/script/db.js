@@ -4,7 +4,7 @@ const days = [
         id: 1,
         day: "Poniedziałek",
         hour: ['8:00 - 8:45', '8:50 - 9:35', '9:45 - 10:30', '10:35 - 11:20', '11:25 - 12:10'],
-        lesson: ['WF','Edukacja Wczesnoszkolna', 'Edukacja Plastyczna', 'Edukacja wczesnososzkolna', 'Informatyka'],
+        lesson: ['WF','Edukacja wczesnoszkolna', 'Edukacja Plastyczna', 'Edukacja wczesnoszkolna', 'Informatyka'],
         dinner: '12:50'
     },
     {
