@@ -102,8 +102,11 @@ main .day-planner__lessons p::after {
   left: 0;
   width: 100%;
   height: 4px;
-  background-color: yellow;
+  background-color: #fff;
   border-radius: 10px;
+}
+main .day-planner__lessons p:hover::after {
+  background-color: tomato;
 }
 main button {
   font-family: "Roboto", sans-serif;
@@ -142,6 +145,7 @@ main button:hover {
   }
   main .day-planner__lessons p {
     font-size: 1.6rem;
+    letter-spacing: 2px;
   }
   main .day-planner__lessons p::after {
     position: absolute;
@@ -159,6 +163,6 @@ main button:hover {
     left: 0;
     width: 100%;
     height: 4px;
-    background-color: yellow;
+    background-color: #fff;
   }
 }/*# sourceMappingURL=style.css.map */

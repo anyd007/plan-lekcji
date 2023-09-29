@@ -113,9 +113,12 @@ main {
                     left: 0;
                     width: 100%;
                     height: 4px;
-                    background-color: yellow;
+                    background-color: #fff;
                     border-radius: 10px;
                 }
+            &:hover::after{
+                background-color: tomato;
+            }
             }
         }
     }
@@ -172,6 +175,7 @@ main {
 
                 p {
                     font-size: 1.6rem;
+                    letter-spacing: 2px;
                     &::after {
                         position: absolute;
                         content: '';
@@ -189,9 +193,10 @@ main {
                         left: 0;
                         width: 100%;
                         height: 4px;
-                        background-color: yellow;
+                        background-color: #fff;
                     
                     }
+                    
                 }
             }
         }
