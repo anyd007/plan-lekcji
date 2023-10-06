@@ -8,7 +8,8 @@ let dinnerTime = document.querySelector(".day-planner__dinner")
 const dayHandler = (dayIndex) =>{
    dayTitle.textContent = days[dayIndex].day;
    dinnerTime.textContent = `OBIAD: ${days[dayIndex].dinner}`
-
+   dinnerTime.style.border = "4px solid red";
+   
    while (lessonTitle.firstChild) {
     lessonTitle.removeChild(lessonTitle.firstChild);
   }
